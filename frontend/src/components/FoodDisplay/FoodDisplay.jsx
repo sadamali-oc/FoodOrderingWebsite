@@ -9,11 +9,14 @@ const FoodDisplay = ({ category }) => {
   return (
     <div className="food-display" id="food-display">
       <h2>Top dishes near you</h2>
-      <iv className="food-display-list">
+      <div className="food-display-list">
         {food_list.map((item,index)=>{
+          if(category==='All' || category ===item.category){
             return <FoodItem key={index} id={item.id} name={item.name} description={item.description} price={item.price} image={item.image}/>
+
+          }
         })}
-      </iv>
+      </div>
     </div>
   );
 }
