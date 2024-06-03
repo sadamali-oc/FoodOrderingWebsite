@@ -7,9 +7,10 @@
     gap: 20px;
     padding: 20px 8vw;
     padding-top: 80px;
+    margin-top: 100px;
 }
 
-.footer-center{
+.footer-content{
     width: 100%;
     display: grid;
     grid-template-columns: 2fr 1fr 1fr;
