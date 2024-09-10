@@ -73,7 +73,7 @@ const navigate =useNavigate();
               <p>If you have a promo code,Enter it here</p>
               <div className="cart-promocode-input">
                 <input type="text" placeholder="promo code"/>
-                <button>Submit button</button>
+                <button>Submit</button>
               </div>
             </div>
           </div>
